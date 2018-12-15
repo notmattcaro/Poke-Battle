@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* gameContainer helps separate pokemonBattleArea and pokeSelect */
+#gameContainer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #dfdfdfe8;
+    border-radius: 4px;
+}
+    /* Styling code for this column */
+    #Stats {
+        width: 80px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        background-color: #2e2c2c;
+        color: whitesmoke;
+    }
+    /* Styling code for this column */
+    #pokemonBattleArea {
+        display: flex;
+        flex-direction: column;
+        background-color: #df1818;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 10px;
+        height: 400px;
+        width: 400px;
+    }
+
+        #pokeBattleField {
+            height: 85%;
+            width: 100%;
+            background-image: url("../images/background.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 4px;
+        }
+
+            /* Enemy Pokemon */
+            #enemyPokemonContainer {
+                height: 50%;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;
+                flex-direction: column;
+            }
+            #enemyPokeName {
+                padding: 5px;
+            }
+            #enemyPokemon {
+                height: ;
+                width: ;
+            }
+                #ePPic {
+                    height: 175px;
+                    margin-bottom: -50px;
+                }
+
+            /* Chosen Pokemon */
+            #chosenPokemonContainer {
+                height: 50%;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+            #chosenPokeName {
+                padding: 5px;
+            }
+            #chosenPokemon {
+                margin-bottom: -16px;
+                height: ;
+                width: ;
+            }
+                #cPPic {
+                    height: 100px;
+                }
+        #pokeOptions {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+            #attack {
+                width: 50px;
+                border-radius: 4px;
+            }
+            #reset {
+                width: 50px;
+                border-radius: 4px;
+            }
+
+    /* Styling code for this column */
+    #pokeSelect {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #2e2c2c;
+        border-radius: 2px;
+        padding: 10px;
+        margin: 10px;
+    }
+        .buttonIcons {
+            display: flex;
+            justify-content: space-around;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .pokeIcons {
+            padding: 5px;
+            height: 50px;
+            width: 55px;
+        }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Below links my CSS reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Below links my CSS Flexbox used -->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- Below links my google fonts used -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Poke-battle</title>
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="Stats">
+            <div id="myHealth">
+                Health:
+                <span id="myHealthPoints"></span>
+            </div>
+            <div id="enemiesHealth">
+                Enemy:
+                <span id="enemiesHealthPoints"></span>
+            </div>
+        </div>
+        <!-- Below contains my pokemonBattleArea Container -->
+        <div id="pokemonBattleArea">
+            <!-- Below contains the container that will allow me to move this content to the left thanks to my parent element -->
+                <div id="pokeBattleField">
+                    <div id="enemyPokemonContainer">
+                        <div id="enemyPokeName">
+                            Enemy Pokemon
+                        </div>
+                        <div id="enemyPokemon">
+                            <!-- where enemy pokemon will be inserted -->
+                            <img id="ePPic" src="assets/images/pikachuAnimation.gif" alt="Charmander Gif">
+                        </div>
+                    </div>
+                    <div id="chosenPokemonContainer">
+                        <div id="chosenPokeName">
+                            Chosen Pokemon
+                        </div>
+                        <div id="chosenPokemon">
+                            <!-- where chosen pokemon will be inserted -->
+                            <img id="cPPic" src="assets/images/squirtle.png" alt="pikachu stock">
+                        </div>
+                    </div>
+                </div>
+                <div id="pokeOptions">
+                    <button id="attack">
+                        attack
+                    </button>
+                    <button id="reset">
+                        reset
+                    </button>
+                </div>
+        </div>
+        <!-- Below contains my pokemonIcons -->
+        <div id="pokeSelect">
+            <!-- insert pokemon images -->
+            <button id="pikachuButton" class="buttonIcons"><img class="pokeIcons" src="assets/images/pikachuIcon.png"></button>
+            <button id="squirtleButton" class="buttonIcons"><img class="pokeIcons" src="assets/images/squirtleIcon.png"></button>
+            <button id="charmanderButton" class="buttonIcons"><img class="pokeIcons" src="assets/images/charmanderIcon.png"></button>
+            <button id="bulbasaurButton" class="buttonIcons"><img class="pokeIcons" src="assets/images/bulbasaurIcon.png"></button>
+        </div>
+    </div>
+
+<!-- Below links my Javascript -->
+<script src="assets/js/javascript.js"></script>
+</body>
+</html>
