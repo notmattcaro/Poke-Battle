@@ -27,6 +27,7 @@ body {
         background-color: #2e2c2c;
         color: whitesmoke;
     }
+        
     /* Styling code for this column */
     #pokemonBattleArea {
         display: flex;
@@ -58,14 +59,15 @@ body {
                 align-items: flex-end;
                 flex-direction: column;
             }
-            #enemyPokeName {
+            .enemyPokeName {
+                margin-right: 10%;
                 padding: 5px;
             }
             #enemyPokemon {
                 height: ;
                 width: ;
             }
-                #ePPic {
+                .ePPic {
                     height: 175px;
                     margin-bottom: -50px;
                 }
@@ -82,13 +84,24 @@ body {
                 padding: 5px;
             }
             #chosenPokemon {
-                margin-bottom: -16px;
-                height: ;
-                width: ;
+                margin-bottom: -14px;
             }
-                #cPPic {
+                .cPPic {
                     height: 100px;
                 }
+                .cPPic.squirtle {
+                    margin-bottom: -23px;
+                }
+                .cPPic.pikachu {
+                    margin-bottom: -3px;
+                }
+                .cPPic.charmander {
+                    margin-bottom: -9px;
+                }
+                .cPPic.bulbasaur {
+                    margin-bottom: -3px;
+                }
+
         #pokeOptions {
             height: 15%;
             width: 100%;
