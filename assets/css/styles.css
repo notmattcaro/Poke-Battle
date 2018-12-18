@@ -20,13 +20,19 @@ body {
 }
     /* Styling code for this column */
     #Stats {
-        width: 80px;
+        width: 90px;
         padding: 10px;
         margin: 10px;
         border-radius: 4px;
         background-color: #2e2c2c;
         color: whitesmoke;
     }
+        #myHealthPoints {
+            color: #df1818;
+        }
+        #enemiesHealthPoints {
+            color: #df1818;
+        }
         
     /* Styling code for this column */
     #pokemonBattleArea {
@@ -120,11 +126,12 @@ body {
 
     /* Styling code for this column */
     #pokeSelect {
+        width: 90px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         background-color: #2e2c2c;
-        border-radius: 2px;
+        border-radius: 4px;
         padding: 10px;
         margin: 10px;
     }
